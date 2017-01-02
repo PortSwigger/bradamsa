@@ -1,0 +1,11 @@
+Uuid: cfba9ea9b11f4436a4303bca58b8ff06
+ExtensionType: 1
+Name: Bradamsa
+ScreenVersion: 0.2
+SerialVersion: 1
+MinPlatformVersion: 0
+ProOnly: False
+Author: Luca Carettoni
+ShortDescription: Generates Intruder payloads using the Radamsa test case generator.
+EntryPoint: build/libs/bradamsa-all.jar
+BuildCommand: gradle -PburpJar=$BURP_JAR fatJar
